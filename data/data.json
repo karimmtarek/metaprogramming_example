@@ -1,0 +1,56 @@
+{
+  "workstations": [{
+    "id": 1,
+    "cpu": {
+      "info": "AMD FX-8350 Processor 8-Core, 4GHz",
+      "price": 236.99
+    },
+    "mouse": {
+      "info": "Microsoft Wireless Mobile Mouse",
+      "price": 27.99
+      },
+    "keyboard": {
+      "info": "Microsoft Natural Ergonomic Keyboard 4000",
+      "price": 54.99
+      },
+    "memory": {
+      "info": "Kingston 8GB DDR3",
+      "price": 57.99
+      },
+    "motherboard": {
+      "info": "Asus A88X-PRO",
+      "price": 157.99
+      },
+    "storage": {
+      "info": "WD Red Pro 4TB",
+      "price": 290.99
+    }
+  },
+  {
+    "id": 2,
+    "cpu": {
+      "info": "Intel Core i5-4690K Processor - Quad Core, 3.5GHz",
+      "price": 324.99
+    },
+    "mouse": {
+      "info": "Microsoft Wireless Mobile Mouse",
+      "price": 27.99
+      },
+    "keyboard": {
+      "info": "Microsoft Natural Ergonomic Keyboard 4000",
+      "price": 54.99
+      },
+    "memory": {
+      "info": "Kingston 8GB DDR3",
+      "price": 57.99
+      },
+    "motherboard": {
+      "info": "Asus A88X-PRO",
+      "price": 157.99
+      },
+    "storage": {
+      "info": "WD Red Pro 4TB",
+      "price": 290.99
+    }
+  }]
+}
