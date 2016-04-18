@@ -1,5 +1,7 @@
 # MetaprogrammingExample
 
+[![Code Climate](https://codeclimate.com/github/karimmtarek/metaprogramming_example/badges/gpa.svg)](https://codeclimate.com/github/karimmtarek/metaprogramming_example) [![Build Status](https://travis-ci.org/karimmtarek/metaprogramming_example.svg?branch=master)](https://travis-ci.org/karimmtarek/metaprogramming_example) [![Test Coverage](https://codeclimate.com/github/karimmtarek/metaprogramming_example/badges/coverage.svg)](https://codeclimate.com/github/karimmtarek/metaprogramming_example/coverage) [![Issue Count](https://codeclimate.com/github/karimmtarek/metaprogramming_example/badges/issue_count.svg)](https://codeclimate.com/github/karimmtarek/metaprogramming_example)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/metaprogramming_example`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
