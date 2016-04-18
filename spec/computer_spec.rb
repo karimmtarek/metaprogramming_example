@@ -18,7 +18,7 @@ describe Computer do
       info = data_source.get_cpu_info(1)
       price = data_source.get_cpu_price(1)
 
-      expect(computer.cpu).to eq "CPU: ​#{info}​ ($​#{price}​)"
+      expect(computer.cpu).to eq "Cpu: ​#{info}​ ($​#{price}​)"
     end
   end
 
