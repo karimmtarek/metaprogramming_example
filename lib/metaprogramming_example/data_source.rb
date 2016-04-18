@@ -4,7 +4,7 @@ require 'json'
 # The other methods take a person identifier (id) and return info about that person
 class DataSource
   attr_reader :raw_data
-  PATH = '/Users/karim/code/talks/metaprogramming_example/data/data.json'
+  PATH = "#{Dir.pwd}/data/data.json"
 
   def initialize
     @raw_data = JSON.parse(File.read(PATH))
