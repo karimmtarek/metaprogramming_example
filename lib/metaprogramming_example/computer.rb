@@ -6,39 +6,14 @@ class Computer
     @data_source = data_source
   end
 
-  def mouse
-    info = data_source.get_mouse_info(id)
-    price = data_source.get_mouse_price(id)
-    "Mouse: ​#{info}​ ($​#{price}​)"
+  def method_missing(name)
+    super unless respond_to? name
+    info = data_source.send("get_#{name}_info", id)
+    price = data_source.send("get_#{name}_price", id)
+    "#{name.capitalize}: ​#{info}​ ($​#{price}​)"
   end
 
-  def cpu
-    info = data_source.get_cpu_info(id)
-    price = data_source.get_cpu_price(id)
-    "Cpu: ​#{info}​ ($​#{price}​)"
-  end
-
-  def keyboard
-    info = data_source.get_keyboard_info(id)
-    price = data_source.get_keyboard_price(id)
-    "Keyboard: ​#{info}​ ($​#{price}​)"
-  end
-
-  def memory
-    info = data_source.get_memory_info(id)
-    price = data_source.get_memory_price(id)
-    "Memory: ​#{info}​ ($​#{price}​)"
-  end
-
-  def motherboard
-    info = data_source.get_motherboard_info(id)
-    price = data_source.get_motherboard_price(id)
-    "Motherboard: ​#{info}​ ($​#{price}​)"
-  end
-
-  def storage
-    info = data_source.get_storage_info(id)
-    price = data_source.get_storage_price(id)
-    "Storage: ​#{info}​ ($​#{price}​)"
+  def respond_to_missing?(method, include_private = false)
+    data_source.respond_to?("get_#{method}_info") || super
   end
 end
