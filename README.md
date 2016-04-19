@@ -2,29 +2,7 @@
 
 [![Code Climate](https://codeclimate.com/github/karimmtarek/metaprogramming_example/badges/gpa.svg)](https://codeclimate.com/github/karimmtarek/metaprogramming_example) [![Build Status](https://travis-ci.org/karimmtarek/metaprogramming_example.svg?branch=master)](https://travis-ci.org/karimmtarek/metaprogramming_example) [![Test Coverage](https://codeclimate.com/github/karimmtarek/metaprogramming_example/badges/coverage.svg)](https://codeclimate.com/github/karimmtarek/metaprogramming_example/coverage) [![Issue Count](https://codeclimate.com/github/karimmtarek/metaprogramming_example/badges/issue_count.svg)](https://codeclimate.com/github/karimmtarek/metaprogramming_example)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/metaprogramming_example`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'metaprogramming_example'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install metaprogramming_example
-
-## Usage
-
-TODO: Write usage instructions here
+Code example for [Metaprogramming for Rookies](http://karimmtarek.github.io/metaprogramming_for_rookies/#/) Talk @ [Montreal.rb](http://www.montrealrb.com/events/3-meetup-du-19) – 19th April 2016
 
 ## Development
 
@@ -34,7 +12,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/metaprogramming_example.
+Bug reports and pull requests are welcome on GitHub at https://github.com/karimmtarek/metaprogramming_example.
 
 
 ## License
